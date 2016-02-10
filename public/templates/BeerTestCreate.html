@@ -1,0 +1,14 @@
+<form ng-submit = "vm.createBeer()">
+  <label>Name: </label>
+  <input ng-model = "vm.beer.name" type = "text" placeholder = "name">
+
+  <button type = "submit">Submit</button>
+</form>
+{{vm.result[0]}}
+{{vm.result[0].id}}
+{{vm.result[0].name}}
+{{vm.result[0].nameDisplay}}
+{{vm.result[0].description}}
+{{vm.result[0].abv}}
+{{vm.result[0].isOrganic}}
+{{vm.result[0].style}}
